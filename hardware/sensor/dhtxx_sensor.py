@@ -32,7 +32,7 @@ class terrariumDHTXXSensor(terrariumSensor):
             return None
 
         data = {}
-        data["temperature"] = result["temp_c"]
+        data["temperature"] = result["temp_f"]
         data["humidity"] = result["humidity"]
         return data
 
