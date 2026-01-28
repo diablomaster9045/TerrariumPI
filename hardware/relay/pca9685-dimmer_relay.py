@@ -10,8 +10,8 @@ class terrariumRelayDimmerPCA9685(terrariumRelayDimmer):
     NAME = "PCA9685-dimmer"
 
     # Dimmer settings
-    _DIMMER_FREQ = 1000
-    _DIMMER_MAXDIM = 4095.0
+    _DIMMER_FREQ = 100
+    _DIMMER_MAXDIM = 32000
 
     _DEFAULT_ADDRESS = "0x40"
 
